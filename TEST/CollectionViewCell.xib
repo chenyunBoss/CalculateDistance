@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="307" height="124"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMo-3j-YuE">
+                        <rect key="frame" x="10" y="8" width="286" height="108"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="南京小红山汽车站" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jas-9C-Jmb">
+                                <rect key="frame" x="10" y="31" width="266" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="南京葛塘站" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0n-Ri-miH">
+                                <rect key="frame" x="10" y="60.5" width="266" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h0n-Ri-miH" firstAttribute="leading" secondItem="oMo-3j-YuE" secondAttribute="leading" constant="10" id="HJC-FI-b60"/>
+                            <constraint firstItem="Jas-9C-Jmb" firstAttribute="centerX" secondItem="oMo-3j-YuE" secondAttribute="centerX" id="HZA-8b-Dlk"/>
+                            <constraint firstItem="Jas-9C-Jmb" firstAttribute="centerY" secondItem="oMo-3j-YuE" secondAttribute="centerY" constant="-15" id="QtJ-ea-sda"/>
+                            <constraint firstItem="Jas-9C-Jmb" firstAttribute="leading" secondItem="oMo-3j-YuE" secondAttribute="leading" constant="10" id="mJp-LP-kjv"/>
+                            <constraint firstItem="h0n-Ri-miH" firstAttribute="centerY" secondItem="oMo-3j-YuE" secondAttribute="centerY" constant="15" id="mR0-VJ-3jS"/>
+                            <constraint firstItem="h0n-Ri-miH" firstAttribute="centerX" secondItem="oMo-3j-YuE" secondAttribute="centerX" id="rP2-0O-0da"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="oMo-3j-YuE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="T2R-E3-DF3"/>
+                <constraint firstItem="oMo-3j-YuE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="muZ-vQ-hxe"/>
+                <constraint firstItem="oMo-3j-YuE" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="wFK-ko-pc8"/>
+                <constraint firstItem="oMo-3j-YuE" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="wFh-dA-iMI"/>
+            </constraints>
+            <size key="customSize" width="307" height="124"/>
+            <connections>
+                <outlet property="bgView" destination="oMo-3j-YuE" id="ixo-Jt-DgR"/>
+            </connections>
+            <point key="canvasLocation" x="-62.5" y="-58"/>
+        </collectionViewCell>
+    </objects>
+</document>
